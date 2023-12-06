@@ -1,0 +1,315 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    font-family: Arial, serif;
+}
+.container .item {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    color: #366656;
+    border: 1px solid black;
+    border-bottom: none;
+    padding-top: 25px;
+}
+.container .item .item-header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.container .item .item-header .header-1 img {
+    height: 120px;
+    margin: 8px 0;
+}
+.container .item .item-header-1 img {
+    height: 150px;
+    width: 275px;
+    margin: -15px;
+}
+.container .item .item-header .header-2 > p {
+    margin: 0;
+}
+.container .item .item-header .header-2 {
+    margin-top: 30px;
+    font-size: 15px;
+}
+.container .item .item-header .header-2 p:last-child {
+    font-size: 8px;
+}
+.container .item .item-header {
+    margin-bottom: 25px;
+}
+.container .item-1 {
+    display: grid;
+    background-color: #36afbd;
+    border: 1px solid black;
+    border-top: none;
+}
+.container .item-1 .item-info{
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.container .item-1 .item-info > h1 {
+    text-align: center;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.container .item-1 .item-info h1:last-child {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 40px;
+    color: #c9deda;
+    border-bottom: 1px solid #86cece;
+}
+.container .item-1 .item-info-1{
+    display: grid;
+    justify-content: center;
+    /*border-top: 1px solid black;*/
+    padding-top: 0;
+    margin-top: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.container .item-1 .item-info-1 > h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.container .item-1 .item-info-1 h2:last-child {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.container .item-1 .item-container {
+    display: grid;
+    margin-right: -365px;
+    margin-left: -322px;
+}
+/* Rác Nhựa */
+.container .item-1 .item-container .item-body .title {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    position: absolute;
+    z-index: 1;
+    margin: 10px 0;
+    border: 1px dotted black;
+    background-color: #4d99ab;
+    left: 360px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.container .item-1 .item-container .item-body .title p {
+    font-size: 20px;
+}
+.container .item-1 .item-container .item-body .title .title-1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    border: 1px dashed white;
+    border-radius: 12px;
+}
+.container .item-1 .item-container .item-body .title .title-1 .title-info-2 {
+    padding: 10px 10px 15px 5px;
+    color: white;
+}
+.container .item-1 .item-container .item-body .title .title-1 .title-info {
+    position: relative;
+    padding: 0 30px;
+    margin: 25px 0 25px 0;
+    right: 15px;
+    background-color: #2b7a6e;
+    border-radius: 10px 10px 10px 0;
+}
+.container .item-1 .item-container .item-body .title .title-1 .title-info h4 {
+    padding: 2px 15px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    color: white;
+}
+.container .item-1 .item-container .item-body .title-info-1 {
+    position: relative;
+    background-color: #2b7a6e;
+    top: 80px;
+    padding: 0;
+    width: 10px;
+    height: 20px;
+    left: 350px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+.container .item-1 .item-container .item-body .title .title-1 .title-info-2 p{
+    margin: 0;
+}
+.container .item-1 .item-container .item-body .title .title-1 .title-info-2 p:first-child {
+    text-align: center;
+}
+.container .item-1 .item-container .item-body img {
+    padding: 30px 358px;
+    width: 50%;
+    height: 60%;
+    position: relative;
+    border-radius: 27%;
+    margin: 0 51px;
+}
+/* Rác Hộp Trái Cây */
+.container .item-1 .item-container .item-body-1 {
+    margin-top: -55px;
+}
+.container .item-1 .item-container .item-body-1 .title {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    position: absolute;
+    z-index: 1;
+    margin: -131px 0;
+    border: 1px dotted black;
+    background-color: #4d99ab;
+    left: 360px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.container .item-1 .item-container .item-body-1 .title p {
+    font-size: 20px;
+}
+.container .item-1 .item-container .item-body-1 .title .title-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    border: 1px dashed white;
+    border-radius: 12px;
+}
+.container .item-1 .item-container .item-body-1 .title .title-2 .title-info-2 {
+    padding: 10px 10px 15px 5px;
+    color: white;
+}
+.container .item-1 .item-container .item-body-1 .title .title-2 .title-info {
+    position: relative;
+    padding: 0 30px;
+    margin: 25px 0 25px 0;
+    right: 15px;
+    background-color: #2b7a6e;
+    border-radius: 10px 10px 10px 0;
+    height: 20px;
+    top: -1px;
+    width: 1px;
+}
+.container .item-1 .item-container .item-body-1 .title .title-2 .title-info h4 {
+    padding: 2px 15px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    color: white;
+}
+.container .item-1 .item-container .item-body-1 .title-info-1 {
+    position: relative;
+    background-color: #2b7a6e;
+    top: -60px;
+    padding: 0;
+    width: 10px;
+    height: 20px;
+    left: 350px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+.container .item-1 .item-container .item-body-1 .title .title-2 .title-info-2 p{
+    margin: 0;
+}
+.container .item-1 .item-container .item-body-1 .title .title-2 .title-info-2 p:first-child {
+    text-align: center;
+}
+.container .item-1 .item-container .item-body-1 img {
+    padding: 30px 358px;
+    width: 50%;
+    height: 46%;
+    position: relative;
+    border-radius: 27%;
+    margin: -135px 51px 51px;
+}
+/* Rác Bánh Kẹo */
+.container .item-1 .item-container .item-body-2 {
+    margin-top: -542px;
+}
+.container .item-1 .item-container .item-body-2 .title {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    position: absolute;
+    z-index: 1;
+    margin: 10px 0;
+    border: 1px dotted black;
+    background-color: #4d99ab;
+    left: 360px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.container .item-1 .item-container .item-body-2 .title p {
+    font-size: 20px;
+}
+.container .item-1 .item-container .item-body-2 .title .title-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    border: 1px dashed white;
+    border-radius: 12px;
+}
+.container .item-1 .item-container .item-body-2 .title .title-3 .title-info-2 {
+    padding: 10px 10px 15px 5px;
+    color: white;
+}
+.container .item-1 .item-container .item-body-2 .title .title-3 .title-info {
+    position: relative;
+    padding: 0 30px;
+    margin: 25px 0 25px 0;
+    right: 15px;
+    background-color: #2b7a6e;
+    border-radius: 10px 10px 10px 0;
+}
+.container .item-1 .item-container .item-body-2 .title .title-3 .title-info h4 {
+    padding: 2px 15px;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    color: white;
+}
+.container .item-1 .item-container .item-body-2 .title-info-1 {
+    position: relative;
+    background-color: #2b7a6e;
+    top: 80px;
+    padding: 0;
+    width: 10px;
+    height: 20px;
+    left: 350px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+.container .item-1 .item-container .item-body-2 .title .title-3 .title-info-2 p{
+    margin: 0;
+}
+.container .item-1 .item-container .item-body-2 .title .title-3 .title-info-2 p:first-child {
+    text-align: center;
+}
+.container .item-1 .item-container .item-body-2 img {
+    padding: 30px 358px;
+    width: 50%;
+    height: 60%;
+    position: relative;
+    border-radius: 27%;
+    margin: 0 51px;
+}
+.container .item-1 img {
+    width: 75%;
+    /* text-align: center; */
+    margin-left: 128px;
+    margin-top: -131px;
+}
