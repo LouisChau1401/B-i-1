@@ -1,0 +1,17 @@
+section .text-center .row .items > div {
+    padding-right: 10px;
+    width: 100%;
+    height: 50px;
+}
+section nav .container-fluid #navbarNav .navbar-nav > .nav-item  {
+    padding: 10px 0 0 0;
+}
+section nav .container-fluid #navbarNav .navbar-nav > .nav-item:first-child  {
+    padding: 12px;
+}
+section nav .container-fluid {
+    background-color: rgb(114, 188, 210);
+}
+section .navbar {
+    padding: 0;
+}
